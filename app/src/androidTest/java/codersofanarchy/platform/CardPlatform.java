@@ -15,7 +15,8 @@ import android.util.Log;
 public class CardPlatform extends Application {
 
     public static final String TAG = "CS";
-    public static final ParcelUuid UUID = ParcelUuid.fromString("1234");
+    public static final ParcelUuid SERVICE_UUID = ParcelUuid.fromString("1234");
+    public static final ParcelUuid CHARACTERISTIC_UUID = ParcelUuid.fromString("9999");
 
     public static boolean isAdvertising, hasBLESupport;
 

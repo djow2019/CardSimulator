@@ -52,3 +52,5 @@ build/generated/mockable-android-22.jar
 CardSimulator.iml
 
 gradle/wrapper/gradle-wrapper.properties
+
+.idea/gradle.xml
